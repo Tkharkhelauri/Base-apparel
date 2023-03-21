@@ -8,13 +8,21 @@ body {
     display: grid;
     grid-template-rows: 84px 250px 466px;
 }
-
+header {
+    position: relative;
+    
+}
+header img {
+    position: absolute;
+    width: 100px;
+    height: 20.89px;
+    left: 32px;
+    top: 31px;
+}
 .images img[alt=image_desktop] {
     display: none;
 }
-header {
-    height: 84px;
-}
+
 h2 {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -42,25 +50,29 @@ p {
     color: #CE9898;
     padding: 16px 32px 32px;
 }
-.error {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 28px;
-    color: #F96464;
+
+form {
+    position: relative;
+    padding: 0px 32px 92px;
 }
-header img {
-    padding-top: 32px;
-    padding-left: 34px;
-}
+
 input {
     text-indent: 24px;
     opacity: 0.5;
-    border: 2px solid #F96464;
+    border: 1px solid #CE9898;
     border-radius: 28px;
     background-color: transparent;
     height: 48px;
     width: 311px;
-    
+    mix-blend-mode: normal;
+}
+input::placeholder {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #CE9898;
 }
 .tap {
     background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
@@ -71,10 +83,7 @@ input {
     border: none;
 
 }
-form {
-    position: relative;
-    padding: 0px 32px 92px;
-}
+
 button {
     position: absolute;
     top: 0px;
