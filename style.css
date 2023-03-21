@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+body {
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+    /* display: grid; */
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 375px;
+    display: grid;
+    grid-template-rows: 84px 250px 466px;
+}
+
+.images img[alt=image_desktop] {
+    display: none;
+}
+header {
+    height: 84px;
+}
+h2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.8254px;
+    color: #CE9898;
+    padding-top: 64px;
+}
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.8254px;
+    color: #423A3A;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #CE9898;
+    padding: 16px 32px 32px;
+}
+.error {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    color: #F96464;
+}
+header img {
+    padding-top: 32px;
+    padding-left: 34px;
+}
+input {
+    text-indent: 24px;
+    opacity: 0.5;
+    border: 2px solid #F96464;
+    border-radius: 28px;
+    background-color: transparent;
+    height: 48px;
+    width: 311px;
+    
+}
+.tap {
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+    border-radius: 28px;
+    height: 48px;
+    width: 64px;
+    border: none;
+
+}
+form {
+    position: relative;
+    padding: 0px 32px 92px;
+}
+button {
+    position: absolute;
+    top: 0px;
+    left: 279px;
+}
+@media (min-width: 1440px){
+    body {
+        background-image: url(./assets/bg-pattern-desktop.svg);
+        grid-template-rows: 108px 404px;
+        grid-template-columns: 444px 610px;
+        column-gap: 220px;
+        padding-left: 165px;
+        row-gap: 137px;
+    }
+    .images img[alt=image_mobile] {
+        display: none;
+    }
+    .images img[alt=image_desktop] {
+        display: block;
+    }
+   
+    
+}
+
+    
