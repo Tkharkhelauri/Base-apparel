@@ -43,7 +43,7 @@ h1 {
     color: #423A3A;
 }
 p {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
@@ -105,7 +105,55 @@ button {
         display: block;
     }
    
-    
+    header img {
+        height: 33px;
+        width: 158px;
+        top: 76px;
+        left: 0px;
+
+    }
+    h2 {
+        font-size: 64px;
+        line-height: 64px;
+        height: 64px;
+        letter-spacing: 17.32px;
+        text-align: start;
+        padding-top: 0px;
+
+    }
+    h1 {
+        height: 128px;
+        width: 444px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 71px;
+        text-align: start;
+        letter-spacing: 17.3206px;
+    }
+    p {
+        text-align: start;
+        padding: 32px 0px 40px 0px;
+        font-size: 16px;
+        line-height: 28px;
+        width: 444px;
+        font-weight: 300;
+    }
+    form {
+        padding: 0px;
+    }
+    input {
+        height: 56px;
+        width: 445px;
+    }
+    .tap {
+        width: 100px;
+        height: 56px;
+        left: 345px;
+    }
+    input::placeholder {
+        font-size: 16px;
+    }
 }
+
 
     
