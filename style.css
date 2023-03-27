@@ -4,10 +4,16 @@ body {
     /* display: grid; */
     height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
-    width: 375px;
-    display: grid;
-    grid-template-rows: 84px 250px 466px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.grid {
+    display: grid;
+    grid-template-rows: 84px ; 
+    width: 375px;
+}    
 header {
     position: relative;
     
@@ -90,13 +96,16 @@ button {
     left: 279px;
 }
 @media (min-width: 1440px){
-    body {
-        background-image: url(./assets/bg-pattern-desktop.svg);
-        grid-template-rows: 108px 404px;
+    
+    .grid {
+         grid-template-rows: 108px 555px;
         grid-template-columns: 444px 610px;
         column-gap: 220px;
         padding-left: 165px;
         row-gap: 137px;
+        background-image: url(./assets/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        width: auto;
     }
     .images img[alt=image_mobile] {
         display: none;
